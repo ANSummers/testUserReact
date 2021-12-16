@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
+import Login from "./components/login";
 import "./App.css";
 
 class App extends Component {
@@ -23,10 +23,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Technical Challenge</h1>
           <h1 className="App-title">Solution by ANSummers</h1>
         </header>
+        <Login />
         <p className="App-intro">{this.state.apiResponse}</p>
       </div>
     );

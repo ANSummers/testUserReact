@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Login from "./components/login";
-import "./App.css";
+
+import "./components/layout";
+import Layout from "./components/layout";
 
 class App extends Component {
   constructor(props) {
@@ -22,11 +23,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Technical Challenge</h1>
-          <h1 className="App-title">Solution by ANSummers</h1>
-        </header>
-        <Login />
+        <Layout pageTitle="Home" pageHeading="Welcome">
+          <p>Technical Challenge</p>
+        </Layout>
+
         <p className="App-intro">{this.state.apiResponse}</p>
       </div>
     );

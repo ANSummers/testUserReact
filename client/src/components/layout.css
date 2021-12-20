@@ -1,0 +1,56 @@
+html {
+  background-color: #eee2dc;
+}
+.App {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+.heading {
+  color: #123c69;
+  font-size: 2vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+.nav-link-item {
+  padding-right: 2rem;
+}
+.nav-link-text {
+  color: #123c69;
+}
+
+.App-header {
+  background-color: #bab2b5;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vh;
+  color: #123c69;
+}
+
+.App-intro {
+  color: #ac3b61;
+}
+
+.container {
+  margin: auto;
+  max-width: 500px;
+}
+.button {
+  background-color: #edc7b7;
+  color: #123c69;
+  font-size: 1vh;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: outset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}
